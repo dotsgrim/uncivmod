@@ -34,7 +34,7 @@
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
-        "uniques": ["[+3 Faith -2 Food] from every [Desert]"]
+        "uniques": ["[+3 Faith, -2 Food] from every [Desert]"]
     },
     {
         "name": "Divine Judgement",
