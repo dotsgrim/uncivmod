@@ -1,9 +1,43 @@
 [
     {
+        "name": "Caravan",
+        "unitType": "Civilian",
+        "movement": 3,
+        "cost": 120,
+        "uniques": [
+            "Can instantly construct a [Land Trade Route (Food)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
+            "Can instantly construct a [Land Trade Route (Production)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
+            "Can instantly construct a [Land Trade Route (Gold)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
+            "Consumes [1] [Trade Route]",
+            "Only available <for [non-[City-States]] Civilizations>",
+            "Uncapturable",
+            "No Sight"
+        ],
+        "promotions": ["Ignore terrain cost"],
+        "requiredTech": "Animal Husbandry"
+    },
+    {
+        "name": "Caravan of City States",
+        "unitType": "Civilian",
+        "movement": 1,
+        "cost": 300,
+        "uniques": [
+            "Can instantly construct a [Land Trade Route (Food)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
+            "Can instantly construct a [Land Trade Route (Production)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
+            "Can instantly construct a [Land Trade Route (Gold)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
+            "Consumes [1] [Trade Route]",
+            "Only available <for [[City-States]] Civilizations>",
+            "Uncapturable",
+            "No Sight"
+        ],
+        "promotions": ["Ignore terrain cost"],
+        "requiredTech": "Animal Husbandry"
+    },
+    {
         "name": "Cargo Ship",
         "unitType": "Civilian Water",
-        "movement": 4,
-        "cost": 100,
+        "movement": 5,
+        "cost": 200,
         "uniques": [
             "Can instantly construct a [Sea Trade Route (Food)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Can instantly construct a [Sea Trade Route (Production)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
@@ -14,5 +48,151 @@
             "No Sight"
         ],
         "requiredTech": "Sailing"
+    },
+    {
+        "name": "Great Prophet",
+        "unitType": "Civilian",
+        "uniques": [
+            "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Can Spread Religion <for [8] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+            "May enter foreign tiles without open borders",
+            "Great Person - [Faith]",
+            "Unbuildable",
+            "Uncapturable",
+            "Religious Unit",
+            "Only available <when religion is enabled>",
+            "[+2] Sight",
+            "Can see over obstacles",
+            "Takes your religion over the one in their birth city"
+        ],
+        "movement": 5,
+        "religiousStrength": 1000
+    },
+    {
+        "name": "Great Admiral",
+        "unitType": "Civilian Water",
+        "uniques": [
+            "[+15]% Strength bonus for [{Military} {Water}] units within [4] tiles",
+            "Unbuildable",
+            "Uncapturable",
+            "Can be earned through combat <for [Water] units>",
+            "Great Person - [Navy]",
+            "Can instantly construct a [Dry Dock] improvement <by consuming this unit>"
+        ],
+        "movement": 8
+    },
+    {
+        "name": "Missionary",
+        "unitType": "Civilian",
+        "cost": 100,
+        "uniques": [
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+            "Can be purchased for [200] [Faith] [in all cities in which the majority religion is a major religion]",
+            "[+1] Sight",
+            "Unbuildable",
+            "Religious Unit",
+            "Only available <when religion is enabled>"
+        ],
+        "movement": 4,
+        "religiousStrength": 1000
+    },
+    {
+        "name": "Great Artist",
+        "unitType": "Civilian",
+        "uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Instantly provides [1] [Great Work of Art] <by consuming this unit>",
+            "Is part of Great Person group [Artist]",
+            "Great Person - [Culture]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+        "movement": 4
+    },
+    {
+        "name": "Great Writer",
+        "unitType": "Civilian",
+        "uniques": [
+            "Can generate a large amount of culture",
+            "Instantly provides [1] [Great Work of Writing] <by consuming this unit>",
+            "Is part of Great Person group [Writer]",
+            "Great Person - [Culture]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+        "movement": 4
+    },
+    {
+        "name": "Great Musician",
+        "unitType": "Civilian",
+        "uniques": [
+            "Instantly provides [1] [Great Work of Music] <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Is part of Great Person group [Musician]",
+            "Great Person - [Culture]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+        "movement": 4
+    },
+    {
+        "name": "Great Scientist",
+        "unitType": "Civilian",
+        "uniques": [
+            "Can hurry technology research",
+            "Can instantly construct a [Academy] improvement <by consuming this unit>",
+            "Is part of Great Person group [Scientist]",
+            "Great Person - [Science]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+        "movement": 4
+    },
+    {
+        "name": "Great Merchant",
+        "unitType": "Civilian",
+        "uniques": [
+            "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+            "Is part of Great Person group [Merchant]",
+            "Great Person - [Gold]",
+            "Unbuildable",
+            "Uncapturable",
+            "[+2] Sight",
+            "Can see over obstacles"
+        ],
+        "movement": 6
+    },
+    {
+        "name": "Great Engineer",
+        "unitType": "Civilian",
+        "uniques": [
+            "Can speed up construction of a building",
+            "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+            "Is part of Great Person group [Engineer]",
+            "Great Person - [Production]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+        "movement": 4
+    },
+    {
+        "name": "Inquisitor",
+        "unitType": "Civilian",
+        "cost": 100,
+        "uniques": [
+            "Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <for [4] movement> <in [Friendly] tiles> <once> <after which this unit is consumed>",
+            "Can be purchased for [300] [Faith] [in all cities in which the majority religion is an enhanced religion]",
+            "[-2] Sight",
+            "Only available <when religion is enabled>",
+            "Unbuildable",
+            "Religious Unit"
+        ],
+        "movement": 2
     }
 ]
