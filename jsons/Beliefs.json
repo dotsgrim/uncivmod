@@ -18,13 +18,6 @@
         "name": "Altars of Worship",
         "type": "Pantheon",
         "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion]"]
-        // ToDo: Should only be ancient/classical era wonders, but implementing that is another can of worms
-        // For that we really should need an era.matchesFilter(), so we could write something like:
-        //"uniques": ["[+15]% Production when constructing [Ancient era] wonders [in cities following this religion]",
-        // "[+15]% Production when constructing [Classical era] wonders [in cities following this religion]"]
-        // For now this feels like overkill, but I'll leave this here for the future
-
-        // Alternatively, we could approximate this with "[+15]% Production when constructing [All] wonders [in cities following this religion] <during the [Ancient era]>"
     },
     {
         "name": "Ancestor Worship",
@@ -49,7 +42,7 @@
         "uniques": [
             "[+2 Faith] from every [Barracks]",
             "[+2 Faith, +7 Happiness] from every [Courthouse]",
-            "[+2 Happiness] from every [Palace]",
+            "[+2 Happiness] from every [Palace]"
         ]
     },
     {
@@ -153,7 +146,7 @@
         ]
     },
     {
-        "name": "Ocean's Bounty",
+        "name": "Oceans Bounty",
         "type": "Pantheon",
         "uniques": [
             "[+2 Production, +2 Gold] from every [Fishing Boats]",
@@ -559,7 +552,7 @@
         "name": "Indulgences",
         "type": "Enhancer",
         "uniques": [
-            //Should be for all cities following the religion, but I can't do so as an enhancer
+            //Should be for all cities following the religion, but I can"t do so as an enhancer
             "[+1 Food, +1 Culture, +1 Production, +1 Gold, +1 Faith] [in cities following this religion]",
             "Only available <after adopting [Reformation]>"
         ]
@@ -609,7 +602,7 @@
             "[+5 Faith] from [Sea Trade Route (Food)] tiles [in cities following this religion]",
             "[+2 Faith] from [Land Trade Route (Food)] tiles [in cities following this religion]",
             "[+5 Faith] from [Sea Trade Route (Production)] tiles [in cities following this religion]",
-            "[+2 Faith] from [Land Trade Route (Production)] tiles [in cities following this religion]",
+            "[+2 Faith] from [Land Trade Route (Production)] tiles [in cities following this religion]"
         ]
     },
        {
@@ -637,7 +630,7 @@
         "name": "Swords into Ploughshares",
         "type": "Enhancer",
         "uniques": [
-            //Should be for all cities following the religion, but I can't do so as an enhancer
+            //Should be for all cities following the religion, but I can"t do so as an enhancer
             "[+20]% growth [in cities following this religion]",
             "Only available <after adopting [Reformation]>"
         ]
