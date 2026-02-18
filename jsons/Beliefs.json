@@ -599,12 +599,12 @@
         "type": "Enhancer",
         "uniques": [
             "Provides [2] [Trade Route]",
-            "[+5 Faith] from [Sea Trade Route (Gold)] tiles [in cities following this religion] <in friendly cities>",
-            "[+2 Faith] from [Land Trade Route (Gold)] tiles [in cities following this religion] <in friendly cities>",
-            "[+5 Faith] from [Sea Trade Route (Food)] tiles [in cities following this religion] <in friendly cities>",
-            "[+2 Faith] from [Land Trade Route (Food)] tiles [in cities following this religion] <in friendly cities>",
-            "[+5 Faith] from [Sea Trade Route (Production)] tiles [in cities following this religion] <in friendly cities>",
-            "[+2 Faith] from [Land Trade Route (Production)] tiles [in cities following this religion] <in friendly cities>"
+            "[+5 Faith] from [Sea Trade Route (Gold)] tiles [in friendly cities following this religion]",
+            "[+2 Faith] from [Land Trade Route (Gold)] tiles [in friendly cities following this religion]",
+            "[+5 Faith] from [Sea Trade Route (Food)] tiles [in friendly cities following this religion]",
+            "[+2 Faith] from [Land Trade Route (Food)] tiles [in friendly cities following this religion]",
+            "[+5 Faith] from [Sea Trade Route (Production)] tiles [in friendly cities following this religion]",
+            "[+2 Faith] from [Land Trade Route (Production)] tiles [in friendly cities following this religion]"
         ]
     },
        {
