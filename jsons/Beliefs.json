@@ -480,10 +480,7 @@
     {
         "name": "Rush Community",
         "type": "Follower",
-        "uniques": [
-			"[+5]% [Production] from every follower [in friendly cities], up to [30]%", 
-			"[-5 Happiness] from every [8] global followers [in foreign cities]"
-		]
+        "uniques": ["[+1]% Production] from every [1] global followers [in foreign cities], up to [50%]"]
     },
     {
         "name": "Sacred Waters",
