@@ -73,10 +73,10 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Culture, +1 Faith, +4 Food] from every [Fish]",
-            "[+3 Culture, +1 Faith] from every [Whales]",
+            "[+3 Culture, +2 Faith, +3 Food] from every [Whales]",
             "[+1 Culture, +4 Faith] from every [Coral]",
-            "[+1 Culture, +3 Faith, +2 Gold] from every [Pearls]",
-            "[+1 Culture, +1 Faith, +2 Food] from every [Crab]",
+            "[+1 Culture, +3 Faith, +3 Gold] from every [Pearls]",
+            "[+3 Culture, +1 Faith, +2 Food] from every [Crab]",
             "[+2 Culture, +2 Faith, +1 Happiness, +4 Science] from every [Atoll]"
         ]
     },
@@ -481,7 +481,7 @@
     {
         "name": "Rush Community",
         "type": "Follower",
-        "uniques": ["[+2]% Production] from every [3] global followers [in foreign cities], up to [50%]"]
+        "uniques": ["[+2]% [Production] from every follower, up to [30]%"]
     },
     {
         "name": "Sacred Waters",
