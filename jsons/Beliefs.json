@@ -12,7 +12,12 @@
 	{
         "name": "Nympho Princesses",
         "type": "Enhancer",
-        "uniques": ["[+35]% Natural religion spread [in all cities]", "[+15]% Natural religion spread [in all cities] <after discovering [Drama and Poetry]>","[+25]% Natural religion spread [in all cities] <after discovering [Theology]>", "[+50]% Natural religion spread [in all cities] <after discovering [Astronomy]>"]
+        "uniques": [
+			"[+35]% Natural religion spread [in all cities]",
+			"[+15]% Natural religion spread [in all cities] <after discovering [Drama and Poetry]>",
+			"[+25]% Natural religion spread [in all cities] <after discovering [Theology]>",
+			"[+25]% Natural religion pressure [in all cities] <after discovering [Compass]>",
+			"[+25]% Natural religion spread [in all cities] <after discovering [Electricity]>"]
     },
     {
         "name": "Altars of Worship",
