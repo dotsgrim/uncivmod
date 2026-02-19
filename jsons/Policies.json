@@ -13,7 +13,7 @@
                 "name": "Aristocracy",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]",
+                    "[+2 Happiness] per [10] population [in all cities]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -178,8 +178,8 @@
         "name": "Honor",
         "era": "Ancient era",
         "uniques": [
-            "[+33]% Strength <vs [Barbarian] units>",
-            "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
+            "[+50]% Strength <vs [Barbarian] units>",
+            "Earn [120]% of killed [Military] unit's [Strength] as [Culture]",
             "Comment [Unlocks [Temple of Artemis]]",
             "Provides [1] [Policies]"
         ],
@@ -188,8 +188,8 @@
                 "name": "Warrior Code",
                 "uniques": [
                     "[2] free [Warrior] units appear",
-                    "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
-                    "[4] units cost no maintenance",
+                    "Earn [150]% of killed [Military] unit's [Strength] as [Gold]",
+                    "[5] units cost no maintenance",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -224,7 +224,7 @@
             {
                 "name": "Military Tradition",
                 "uniques": [
-                    //"[-20]% Gold cost of upgrading <for [Military] units>",
+                    //"[-75]% Gold cost of upgrading <for [Military] units>",
                     "[+50]% Production when constructing [Courthouse] buildings [in all cities]",
                     "[+3 Production, +3 Gold, +3 Food] from every [Courthouse]",
                     "[+1 Food, +2 Science, +2 Culture] from every [Citadel]",
@@ -342,9 +342,9 @@
         "name": "Aesthetics",
         "era": "Classical era",
         "uniques": [
-            "[Great Artist] is earned [25]% faster",
-            "[Great Writer] is earned [25]% faster",
-            "[Great Musician] is earned [25]% faster",
+            "[Great Artist] is earned [30]% faster",
+            "[Great Writer] is earned [30]% faster",
+            "[Great Musician] is earned [30]% faster",
             "Comment [Unlocks [Uffizi]]",
             "Provides [1] [Policies]"
         ],
@@ -353,12 +353,12 @@
                 "name": "Cultural Centers",
                 "uniques": [
                     "[+100]% Production when constructing [Amphitheater] buildings [in all cities]",
-                    "[+100]% Production when constructing [Opera House] buildings [in all cities]",
-                    "[+100]% Production when constructing [Museum] buildings [in all cities]",
-                    "[+100]% Production when constructing [Broadcast Tower] buildings [in all cities]",
-                    "[+1 Happiness] from every [Writer Guild]",
-                    "[+1 Happiness] from every [Artist Guild]",
-                    "[+1 Happiness] from every [Musician Guild]",
+                    "[+110]% Production when constructing [Opera House] buildings [in all cities]",
+                    "[+125]% Production when constructing [Museum] buildings [in all cities]",
+                    "[+150]% Production when constructing [Broadcast Tower] buildings [in all cities]",
+                    "[+3 Happiness] from every [Writer Guild]",
+                    "[+3 Happiness] from every [Artist Guild]",
+                    "[+3 Happiness] from every [Musician Guild]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -508,8 +508,10 @@
     {
         "name": "Exploration",
         "uniques": [
-            "[+1] Movement <for [{Military} {Water}] units>",
-            "[+1] Sight <for [{Military} {Water}] units>",
+            "[+4] Movement <for [{Military} {Water}] units>",
+            "[+2] Sight <for [{Military} {Water}] units>",
+			"[+3] Movement <for [{Civilian}] units>",
+			"[-1] Sight <for [{Civilian}] units>",
             "Comment [Unlocks [The Louvre]]",
             "Comment [Unlocks [Conquistador]]",
             "Provides [1] [Policies]"
@@ -530,10 +532,10 @@
             {
                 "name": "Maritime Infrastructure",
                 "uniques": [
-                    "[+3 Production] [in all coastal cities]",
-                    "[+50]% Production when constructing [Lighthouse] buildings [in all cities]",
-                    "[+50]% Production when constructing [Harbor] buildings [in all cities]",
-                    "[+50]% Production when constructing [Seaport] buildings [in all cities]",
+                    "[+6 Production] [in all coastal cities]",
+                    "[+70]% Production when constructing [Lighthouse] buildings [in all cities]",
+                    "[+70]% Production when constructing [Harbor] buildings [in all cities]",
+                    "[+70]% Production when constructing [Seaport] buildings [in all cities]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -578,7 +580,7 @@
                 "uniques": [
                     "[Great Admiral] is earned [100]% faster",
                     "Free [Great Admiral] appears",
-                    "[+1] Happiness from each type of luxury resource",
+                    "[+1 Happiness, +2 Science] from each type of luxury resource",
                     "May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -596,9 +598,9 @@
             {
                 "name": "Silk Road",
                 "uniques": [
-                    "[+50]% Production when constructing [Market] buildings [in all cities]",
-                    "[+50]% Production when constructing [Bank] buildings [in all cities]",
-                    "[+50]% Production when constructing [Stock Exchange] buildings [in all cities]",
+                    "[+75]% Production when constructing [Market] buildings [in all cities]",
+                    "[+75]% Production when constructing [Bank] buildings [in all cities]",
+                    "[+75]% Production when constructing [Stock Exchange] buildings [in all cities]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -633,10 +635,10 @@
                     "[+25]% Yield from every [Land Trade Route (Production)]",
                     "[+25]% Yield from every [Sea Trade Route (Food)]",
                     "[+25]% Yield from every [Sea Trade Route (Production)]",*/
-                    "[Gold] cost of purchasing items in cities [-20]%",
-                    "[+2 Science] from every [Market]",
-                    "[+2 Science] from every [Bank]",
-                    "[+2 Science] from every [Stock Exchange]",
+                    "[Gold] cost of purchasing items in cities [-25]%",
+                    "[+2 Science, +4 Gold] from every [Market]",
+                    "[+2 Science, +5 Gold] from every [Bank]",
+                    "[+2 Science, +7 Gold] from every [Stock Exchange]",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Silk Road"],
@@ -660,7 +662,7 @@
                     "[2] free [Great Merchant] units appear",
                     "[+1 Food] from every [Trading post]",
                     "[+1 Food] from every [Caer]",
-                    "[+100]% Gold from Great Merchant trade missions",
+                    "[+200]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -670,7 +672,7 @@
         "name": "Rationalism",
         "era": "Renaissance era",
         "uniques": [
-            "[Great Scientist] is earned [20]% faster",
+            "[Great Scientist] is earned [35]% faster",
             "Comment [Unlocks [Porcelain Tower]]",
             "Provides [1] [Policies]"
         ],
@@ -678,11 +680,11 @@
             {
                 "name": "Sovereignty",
                 "uniques": [
-                    "[+1 Gold] from every [Library]",
-                    "[+1 Gold] from every [University]",
-                    "[+1 Gold] from every [Observatory]",
-                    "[+1 Gold] from every [Research Lab]",
-                    "[+1 Gold] from every [Public School]",
+                    "[+3 Gold] from every [Library]",
+                    "[+3 Gold] from every [University]",
+                    "[+5 Gold] from every [Observatory]",
+                    "[+5 Gold] from every [Research Lab]",
+                    "[+7 Gold] from every [Public School]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -691,12 +693,12 @@
             {
                 "name": "Free Thought",
                 "uniques": [
-                    "[+1 Science] from every [Trading post]",
+                    "[+2 Science] from every [Trading post]",
                     "[+1 Science] from every [Chateau]",
                     "[+1 Science] from every [Caer]",
                     "[+1 Science] from every [Brazilwood Camp]",
                     "[+4 Science] from every [Customs house]",
-                    "[+4 Science] from every [Academy]",
+                    "[+5 Science] from every [Academy]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -728,7 +730,7 @@
             {
                 "name": "Secularism",
                 "uniques": [
-                    "[+2 Science] from every specialist [in all cities]",
+                    "[+3 Science, +1 Production] from every specialist [in all cities]",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Scientific Revolution"],
@@ -738,7 +740,7 @@
             {
                 "name": "Rationalism Complete",
                 "uniques": [
-                    "[10]% [Science] <while the empire is happy>"
+                    "[20]% [Science] <while the empire is happy>"
                 ]
             }
         ]
@@ -850,9 +852,9 @@
             {
                 "name": "Academy of Sciences",
                 "uniques": [
-                    "[+1 Happiness] from every [Observatory]",
-                    "[+1 Happiness] from every [Public School]",
-                    "[+1 Happiness] from every [Research Lab]",
+                    "[+3 Happiness] from every [Observatory]",
+                    "[+3 Happiness] from every [Public School]",
+                    "[+3 Happiness] from every [Research Lab]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
@@ -877,7 +879,7 @@
             {
                 "name": "Workers Faculties",
                 "uniques": [
-                    "[+25]% [Science] <in cities with a [Factory]>",
+                    "[+30]% [Science] <in cities with a [Factory]>",
                     "[+100]% Production when constructing [Factory] buildings [in all cities]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
@@ -891,8 +893,8 @@
                 "name": "Five-Year Plan",
                 "uniques": [
                     "[+2 Production] [in all cities]",
-                    "[+1 Production] from every [Mine]",
-                    "[+1 Production] from every [Quarry]",
+                    "[+2 Production] from every [Mine]",
+                    "[+4 Production] from every [Quarry]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
@@ -919,7 +921,7 @@
             {
                 "name": "Communism",
                 "uniques": [
-                    "Each city founded increases Science cost of Technologies [20]% less than normal",
+                    "Each city founded increases Science cost of Technologies [50]% less than normal",
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
@@ -930,10 +932,10 @@
             {
                 "name": "Iron Curtain",
                 "uniques": [
-                    "[+11 Production] from every [Land Trade Route (Production)]",
-                    "[+11 Food] from every [Land Trade Route (Food)]",
-                    "[+11 Food] from every [Sea Trade Route (Food)]",
-                    "[+11 Production] from every [Sea Trade Route (Production)]",
+                    "[+15 Production] from every [Land Trade Route (Production)]",
+                    "[+15 Food] from every [Land Trade Route (Food)]",
+                    "[+15 Food] from every [Sea Trade Route (Food)]",
+                    "[+15 Production] from every [Sea Trade Route (Production)]",
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
