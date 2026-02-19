@@ -511,7 +511,7 @@
             "[+4] Movement <for [{Military} {Water}] units>",
             "[+2] Sight <for [{Military} {Water}] units>",
 			"[+3] Movement <for [{Civilian}] units>",
-			"[+6] Movement <for [{Religious} {Water}] units>"
+			"[+3] Movement <for [{Religious}] units>",
             "Comment [Unlocks [The Louvre]]",
             "Comment [Unlocks [Conquistador]]",
             "Provides [1] [Policies]"
