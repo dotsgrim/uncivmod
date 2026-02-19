@@ -580,8 +580,7 @@
                 "uniques": [
                     "[Great Admiral] is earned [100]% faster",
                     "Free [Great Admiral] appears",
-                    "[+1] Happiness from each type of luxury resource",
-					"[+3] Science from each type of luxury resource",
+                    "[+2] Happiness from each type of luxury resource",
                     "May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
